@@ -1,0 +1,93 @@
+.tx {
+    font-family: "Lato", sans-serif !important;
+    letter-spacing: 2px;
+}
+
+.div1 {
+    padding: 10%;
+}
+
+.div3 {
+    padding: 3%;
+}
+
+#knimg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.txh {
+    font-size: 2rem;
+}
+
+.tx1 {
+    font-size: 1.2rem;
+}
+
+.ic {
+    color: #fefcfc;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#pawards {
+
+    display: grid;
+    grid-template: 1.8rem / 1fr auto auto 1fr;
+    grid-gap: 20px;
+}
+
+#pawards:after,
+#pawards:before {
+    content: " ";
+    display: block;
+    border-bottom: 0.12rem solid #e0e1e2;
+}
+
+.sh1 {
+
+    display: grid;
+    grid-template: 1.8rem / 1fr auto 1fr;
+    grid-gap: 20px;
+}
+
+.sh1:after,
+.sh1:before {
+    content: " ";
+    display: block;
+    border-bottom: 0.12rem solid #e0e1e2;
+}
+
+.ancbot {
+    text-decoration: none;
+    color: gray;
+}
+
+.ancbot:hover {
+    color: whitesmoke;
+}
+
+.lastdivcol {
+    border: 1px solid grey;
+}
+
+ul.tu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: static;
+    text-overflow: clip;
+}
+
+#span1 {
+    color: dodgerblue;
+}
